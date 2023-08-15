@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Create a range of numbers from 0 to 2 * Pi (100 steps)
-x = np.linspace(0, 2 * np.pi, 180)
+x = np.linspace(1, 12 * np.pi, 180)
 
 # Calculate the sine of these numbers
 y = np.sin(x)
@@ -11,7 +11,7 @@ y = np.sin(x)
 plt.plot(x, y)
 
 # Add a title
-plt.title('Simple Sine Wave')
+plt.title('Simple Slabovich Sine Wave')
 
 # Display the plot
 plt.show()
