@@ -1,9 +1,8 @@
-def friend(x):
-    
-    for person in x:
-        if len(person) != 4:
-            x.remove(person)
-            
-    print(x) 
-    return(x)
-        
+# Exercise 15
+
+# welcome('Evelyn') would print- 'Welcome Evelyn, have a nice day!'
+
+def welcome():
+    name = input("Please enter your name: ")
+    print()
+    print(f"Welcome {name}, have a nice day!")
